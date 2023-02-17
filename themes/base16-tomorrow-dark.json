@@ -76,10 +76,17 @@
       }
     },
     {
-      "name": "Typescript-Type",
+      "name": "Type",
       "scope": "meta.type.annotation",
       "settings": {
         "foreground": "#b294bb"
+      }
+    },
+    {
+      "name": "Type TS",
+      "scope": ["meta.type.annotation.ts", "meta.type.annotation.tsx"],
+      "settings": {
+        "foreground": "#81a2be"
       }
     },
     {
