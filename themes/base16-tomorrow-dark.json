@@ -386,6 +386,13 @@
       "settings": {
         "foreground": "#81a2be"
       }
+    },
+    {
+      "name": "Boolean",
+      "scope": ["constant.language.boolean", "constant.language.true", "constant.language.false"],
+      "settings": {
+        "foreground": "#c5c8c6"
+      }
     } 
   ],
   "colors": {
