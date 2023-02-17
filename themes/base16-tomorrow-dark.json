@@ -47,7 +47,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#c5c8c6"
+        "foreground": "#b294bb"
       }
     },
     {
@@ -372,7 +372,14 @@
         "background": "#969896",
         "foreground": "#ffffff"
       }
-    }
+    },
+    {
+      "name": "Posix Reserved Type",
+      "scope": "support.type.posix-reserved",
+      "settings": {
+        "foreground": "#81a2be"
+      }
+    } 
   ],
   "colors": {
     "editor.background": "#1d1f21",
