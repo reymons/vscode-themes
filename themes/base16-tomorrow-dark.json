@@ -393,6 +393,13 @@
       "settings": {
         "foreground": "#c5c8c6"
       }
+    },
+    {
+      "name": "Tuple Type",
+      "scope": "meta.type.tuple",
+      "settings": {
+        "foreground": "#c5c8c6"
+      }
     } 
   ],
   "colors": {
