@@ -118,7 +118,7 @@
       "name": "Classes",
       "scope": "meta.class",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#c5c8c6"
       }
     },
     {
@@ -178,7 +178,7 @@
       "name": "Constants",
       "scope": "constant",
       "settings": {
-        "foreground": "#de935f"
+        "foreground": "#c5c8c6"
       }
     },
     {
@@ -336,9 +336,9 @@
     },
     {
       "name": "Escape Characters",
-      "scope": "constant.character.escape",
+      "scope": ["constant.character.escape", "constant.other.placeholder"],
       "settings": {
-        "foreground": "#8abeb7"
+        "foreground": "#c5c8c6"
       }
     },
     {
@@ -400,7 +400,14 @@
       "settings": {
         "foreground": "#c5c8c6"
       }
-    } 
+    },
+    {
+      "name": "This",
+      "scope": "variable.language.this",
+      "settings": {
+        "foreground": "#cc6666"
+      }
+    }
   ],
   "colors": {
     "editor.background": "#1d1f21",
