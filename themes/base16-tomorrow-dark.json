@@ -72,7 +72,7 @@
         "variable.other.member"
       ],
       "settings": {
-        "foreground": "#cc6666"
+        "foreground": "#c5c8c6"
       }
     },
     {
@@ -384,12 +384,16 @@
       "name": "Posix Reserved Type",
       "scope": "support.type.posix-reserved",
       "settings": {
-        "foreground": "#81a2be"
+        "foreground": "#b294bb"
       }
     },
     {
       "name": "Boolean",
-      "scope": ["constant.language.boolean", "constant.language.true", "constant.language.false"],
+      "scope": [
+        "constant.language.boolean",
+        "constant.language.true",
+        "constant.language.false"
+      ],
       "settings": {
         "foreground": "#c5c8c6"
       }
@@ -406,6 +410,13 @@
       "scope": "variable.language.this",
       "settings": {
         "foreground": "#cc6666"
+      }
+    },
+    {
+      "name": "Pointer Access",
+      "scope": "punctuation.separator.pointer-access",
+      "settings": {
+        "foreground": "#b294bb"
       }
     }
   ],
