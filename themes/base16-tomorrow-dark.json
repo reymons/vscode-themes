@@ -111,7 +111,7 @@
       "name": "Classes",
       "scope": ["support.class", "entity.name.class", "entity.name.type.class"],
       "settings": {
-        "foreground": "#f0c674"
+        "foreground": "#c5c8c6"
       }
     },
     {
@@ -409,7 +409,7 @@
       "name": "This",
       "scope": "variable.language.this",
       "settings": {
-        "foreground": "#cc6666"
+        "foreground": "#c5c8c6"
       }
     },
     {
