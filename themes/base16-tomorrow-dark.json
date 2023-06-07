@@ -115,6 +115,13 @@
       }
     },
     {
+      "name": "Component JSX",
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#f0c674"
+      }
+    },
+    {
       "name": "Classes",
       "scope": "meta.class",
       "settings": {
