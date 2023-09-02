@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "Brackets, dots, pointers",
+      "name": "Bracket, dot, pointer",
       "scope": [
         "meta.brace",
         "punctuation.accessor",
@@ -31,7 +31,7 @@
       }
     },
     {
-      "name": "Function declaration brackets",
+      "name": "Function declaration bracket",
       "scope": [
         "punctuation.section.parameters.begin.bracket",
         "punctuation.section.parameters.end.bracket",
@@ -55,14 +55,18 @@
       }
     },
     {
-      "name": "Quote",
-      "scope": ["string.quoted", "punctuation.definition.string"],
+      "name": "String",
+      "scope": [
+        "string.quoted",
+        "punctuation.definition.string",
+        "string.template"
+      ],
       "settings": {
         "foreground": "#7cb772"
       }
     },
     {
-      "name": "Numbers",
+      "name": "Number",
       "scope": ["constant.numeric", "keyword.other.unit.suffix"],
       "settings": {
         "foreground": "#c9c9c9"

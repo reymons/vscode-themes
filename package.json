@@ -13,9 +13,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rmns Base16 Tomorrow Dark",
+        "label": "Base16 Tomorrow Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/base16-tomorrow-dark.json"
+      },
+      {
+        "label": "Dark 8bit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
       }
     ]
   }
