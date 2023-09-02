@@ -10,7 +10,7 @@
   "tokenColors": [
     {
       "name": "Default",
-      "scope": ["storage.type.function.arrow"],
+      "scope": ["storage.type.function.arrow", "variable.other.constant"],
       "settings": {
         "foreground": "#c9c9c9"
       }
@@ -35,14 +35,15 @@
       "scope": [
         "punctuation.section.parameters.begin.bracket",
         "punctuation.section.parameters.end.bracket",
-        "punctuation.definition"
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end"
       ],
       "settings": {
         "foreground": "#c9c9c9"
       }
     },
     {
-      "name": "Keywords",
+      "name": "Keyword",
       "scope": [
         "storage.type",
         "keyword.control",
@@ -58,8 +59,11 @@
       "name": "String",
       "scope": [
         "string.quoted",
+        "string.template",
         "punctuation.definition.string",
-        "string.template"
+        "punctuation.definition.comment",
+        "comment.block",
+        "variable.parameter.url"
       ],
       "settings": {
         "foreground": "#7cb772"
@@ -73,8 +77,8 @@
       }
     },
     {
-      "name": "Function call",
-      "scope": ["meta.function-call"],
+      "name": "Function",
+      "scope": ["meta.function-call", "meta.function"],
       "settings": {
         "foreground": "#c9c9c9"
       }
@@ -91,6 +95,20 @@
       "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#ed6c6c"
+      }
+    },
+    {
+      "name": "CSS property value",
+      "scope": ["meta.property-value.css", "meta.property-value.scss"],
+      "settings": {
+        "foreground": "#7bb3de"
+      }
+    },
+    {
+      "name": "CSS numeric",
+      "scope": ["constant.numeric.css", "constant.numeric.scss"],
+      "settings": {
+        "foreground": "#7bb3de"
       }
     }
   ]
