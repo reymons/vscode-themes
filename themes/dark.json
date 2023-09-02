@@ -49,7 +49,8 @@
         "keyword.control",
         "keyword.other",
         "punctuation.definition.directive",
-        "keyword.operator.new"
+        "keyword.operator.new",
+        "keyword.operator.sizeof"
       ],
       "settings": {
         "foreground": "#7bb3de"
