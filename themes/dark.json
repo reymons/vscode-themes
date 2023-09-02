@@ -1,0 +1,93 @@
+{
+  "name": "Rmns Dark Theme",
+  "colors": {
+    "editor.background": "#161616",
+    "editor.foreground": "#c9c9c9",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "sideBar.background": "#161616",
+    "sideBar.border": "#232323"
+  },
+  "tokenColors": [
+    {
+      "name": "Default",
+      "scope": ["storage.type.function.arrow"],
+      "settings": {
+        "foreground": "#c9c9c9"
+      }
+    },
+    {
+      "name": "Brackets, dots, pointers",
+      "scope": [
+        "meta.brace",
+        "punctuation.accessor",
+        "punctuation.separator.dot-access",
+        "punctuation.section.arguments",
+        "punctuation.section.parens",
+        "punctuation.section.block.begin.bracket",
+        "punctuation.section.block.end.bracket"
+      ],
+      "settings": {
+        "foreground": "#c9c9c9"
+      }
+    },
+    {
+      "name": "Function declaration brackets",
+      "scope": [
+        "punctuation.section.parameters.begin.bracket",
+        "punctuation.section.parameters.end.bracket",
+        "punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#c9c9c9"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "storage.type",
+        "keyword.control",
+        "keyword.other",
+        "punctuation.definition.directive",
+        "keyword.operator.new"
+      ],
+      "settings": {
+        "foreground": "#7bb3de"
+      }
+    },
+    {
+      "name": "Quote",
+      "scope": ["string.quoted", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#7cb772"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric", "keyword.other.unit.suffix"],
+      "settings": {
+        "foreground": "#c9c9c9"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": ["meta.function-call"],
+      "settings": {
+        "foreground": "#c9c9c9"
+      }
+    },
+    {
+      "name": "JSX Component",
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#dee57d"
+      }
+    },
+    {
+      "name": "JSX Tag",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#ed6c6c"
+      }
+    }
+  ]
+}
